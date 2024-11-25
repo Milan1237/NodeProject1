@@ -25,7 +25,7 @@ const products = [
   
 
 const app = express();
-const port = 4000 ; 
+const port = import.meta.env.PORT || 4000 ; 
 
 
 app.get('/', (req , res)=>{
